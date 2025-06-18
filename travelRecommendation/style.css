@@ -53,16 +53,30 @@ nav ul li a:hover {
 
 /* Search Buttons*/
 
-nav .searchbutton {
+.searchbutton {
     display: flex;
     gap: 20px;
     padding: 10px;
     background-color: white;
     border-radius: 20px;
+    margin:2px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);;
+}
 
+.searchbutton input[type= "text"] {
+    flex: 1;
+    padding: 2px 35px;
+    font-size: 14px;
+    border: 1px;
+    padding-left: 5px;
+    padding-right: 120px;
+}
 
-
-
+.searchbutton button {
+    padding: 4px 5px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
 
 
 }
