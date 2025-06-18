@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 nav {
@@ -9,6 +10,7 @@ nav {
     background-color: black;
     color: white;
     align-items: center;
+    padding: 5px 5px;
 }
 
 nav .image {
@@ -20,8 +22,8 @@ nav .image img {
     display: flex;
     width: 50px;
     height: 40px;
-    margin: 2px;
-    padding: 2px;
+    margin: 3px;
+    padding: 1px;
 }
 
 nav .image span {
@@ -42,5 +44,25 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    transition: colour 0.3s;
+    transition:color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(236, 17, 236);
+}
+
+/* Search Buttons*/
+
+nav .searchbutton {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+
+
+
+
+
+
 }
